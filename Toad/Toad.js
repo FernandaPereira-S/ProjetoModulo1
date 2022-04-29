@@ -9,11 +9,11 @@ function fase1() {
         }
         else if (escolha == 2) {
             alert ("Infelizmente Toad tem um pulo muito baixo. Você perdeu.");
-            location.assign("GameOver.html");      
+            location.assign("GameOver.html");
         }
         else if (escolha == 3) {
             alert ("Toad foge da luta e Bowser se torna o governante do Mundo Nintendo. Você perdeu.");
-            location.assign("GameOver.html");     
+            location.assign("GameOver.html");
         }
         break;
     }
