@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -28,13 +30,14 @@ a > img {
     background-color: rgb(3, 26, 48);
     width: 100%;
     height: 400px;
+    padding-top: 50px;
     text-align: center;
 }
 
 h1 {
     color: rgb(255, 230, 0);
-    font-size: 60px;
-    padding-top: 60px;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .sinopse {   
@@ -67,6 +70,7 @@ div > img {
 div > p{
     color: rgb(255, 230, 0);
     font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 footer {
