@@ -11,7 +11,10 @@ html, body {
 }
 
 body {
-    background: url("imagens/background.jpg");
+    background: url("./imagens/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 nav {
