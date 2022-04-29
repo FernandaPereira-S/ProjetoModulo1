@@ -8,11 +8,11 @@ function fase1() {
         }
         else if (escolha == 2) {
             alert ("Mario erra o soco e leva uma mordida. Você perdeu.");
-            location.assign("../GameOver.html");      
+            location.assign("../WinOver/GameOver.html");      
         }
         else if (escolha == 3) {
             alert ("Mario foge da luta e Bowser se torna o governante do Mundo Nintendo. Você perdeu.");
-            location.assign("../GameOver.html");     
+            location.assign("../WinOver/GameOver.html");     
         }
         break;
     }
@@ -28,11 +28,11 @@ function fase2() {
         }
         else if (escolha == 2) {
             alert ("Bowser Jr. é muito forte e mal sente o golpe. Você perdeu.");
-            location.assign("../GameOver.html");      
+            location.assign("../WinOver/GameOver.html");      
         }
         else if (escolha == 3) {
             alert ("Mario foge da luta e Bowser se torna o governante do Mundo Nintendo. Você perdeu.");
-            location.assign("../GameOver.html");     
+            location.assign("../WinOver/GameOver.html");     
         }
         break;
     }
@@ -44,15 +44,15 @@ function fase3() {
     
         if (escolha == 1) {
             alert ("Mario sobe até a torre e tenta pular em cima de Bowser, mas acaba quebrando a perna com seu casco duro. Você perdeu.");
-            location.assign("../GameOver.html"); 
+            location.assign("../WinOver/GameOver.html"); 
         }
         else if (escolha == 2) {
             alert ("Mario aponta o canhão coincidentemente próximo para a torre, e a derruba junto de Bowser. Você venceu.");
-            location.assign("../GameWin.html");            
+            location.assign("../WinOver/GameWin.html");            
         }
         else if (escolha == 3) {
             alert ("Mario dá um soco em Bowser e ele revida, fazendo Mario desmaiar. Você perdeu.");
-            location.assign("../GameOver.html");     
+            location.assign("../WinOver/GameOver.html");     
         }
         break;
     }

@@ -8,11 +8,11 @@ function fase1() {
         }
         else if (escolha == 2) {
             alert ("Infelizmente Toad tem um pulo muito baixo. Você perdeu.");
-            location.assign("../GameOver.html");
+            location.assign("../WinOver/GameOver.html");
         }
         else if (escolha == 3) {
             alert ("Toad foge da luta e Bowser se torna o governante do Mundo Nintendo. Você perdeu.");
-            location.assign("../GameOver.html");
+            location.assign("../WinOver/GameOver.html");
         }
         break;
     }
@@ -28,11 +28,11 @@ function fase2() {
         }
         else if (escolha == 2) {
             alert ("Bowser Jr. não quer saber de papo. Você perdeu.");
-            location.assign("../GameOver.html");      
+            location.assign("../WinOver/GameOver.html");      
         }
         else if (escolha == 3) {
             alert ("Toad foge da luta e Bowser se torna o governante do Mundo Nintendo. Você perdeu.");
-            location.assign("../GameOver.html");     
+            location.assign("../WinOver/GameOver.html");     
         }
         break;
     }
@@ -44,15 +44,15 @@ function fase3() {
     
         if (escolha == 1) {
             alert ("O trono acerta Bowser que estava perto da janela, fazendo com que ele caisse para fora do castelo. Você venceu.");
-            location.assign("../GameWin.html"); 
+            location.assign("../WinOver/GameWin.html"); 
         }
         else if (escolha == 2) {
             alert ("Toad mal consegue sair do chão. Você perdeu.");
-            location.assign("../GameOver.html");            
+            location.assign("../WinOver/GameOver.html");            
         }
         else if (escolha == 3) {
             alert ("Toad não consegue convecê-lo. Você perdeu.");
-            location.assign("../GameOver.html");     
+            location.assign("../WinOver/GameOver.html");     
         }
         break;
     }
